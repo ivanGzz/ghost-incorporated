@@ -28,6 +28,8 @@
             <div class="meta">
                 Written By <address>{{author.name}}</a>{{#if tags}} on {{tags}}{{/if}} &mdash;
                 <time pubdate datetime="{{date format='YYYY-MM-DD'}}" title="{{date format="DD MMM YYYY"}}">{{date format="DD MMM YYYY"}}</time>
+                {{#if tags}}on {{tags}}{{/if}} 
+                    <a href="{{url}}#disqus_thread">Comments</a>
             </div>
         </div>
         <hr>

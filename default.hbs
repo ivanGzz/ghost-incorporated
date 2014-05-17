@@ -15,6 +15,7 @@
 
     {{! Styles'n'Scripts }}
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/default.css"}}" />
     
     {{! Open Graph & Twitter Cards }}
     <!-- <link rel="canonical" href="{{url absolute="true"}}">  -->
@@ -89,7 +90,9 @@
 
     {{! Non-blocking assets }}
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Sans:400,700" />
-    <script src="{{asset "js/prism.js"}}"></script>
+    <!-- <script src="{{asset "js/prism.js"}}"></script> -->
+    <script src="{{asset "js/highlight.pack.js"}}"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
